@@ -1,0 +1,101 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "aa0e16c0-c6f1-4e8f-8299-aef89d6527d3": {
+        "id": "aa0e16c0-c6f1-4e8f-8299-aef89d6527d3",
+        "parent": null,
+        "name": "singapooo.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "singapooo.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast1mySamAppUdithhelloany",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "openFiles": [
+      "aa0e16c0-c6f1-4e8f-8299-aef89d6527d3"
+    ],
+    "currentFileId": "aa0e16c0-c6f1-4e8f-8299-aef89d6527d3",
+    "resources": {
+      "apigusEast1mySamAppUdithhelloany": {
+        "name": "apigusEast1mySamAppUdithhelloany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 1,
+          "apiName": "my-sam-app-udith",
+          "apiVersion": "1.0",
+          "apiId": "2dnw1kur9l",
+          "endpointType": "EDGE",
+          "rootResourceId": "kud49yecb0",
+          "existingResources": {
+            "/": "kud49yecb0",
+            "/hello": "ws5eja"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/hello",
+          "resourceName": "hello",
+          "resourceId": "ws5eja",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "Stage",
+          "stageDeploymentId": "3ukkl1",
+          "mode": 1
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "singapooo",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1584082278305
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "singapooo",
+      "url": "https://github.com/Indunil1992/singapooo"
+    }
+  }
+}
